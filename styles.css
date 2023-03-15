@@ -1,0 +1,352 @@
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+.image img
+{
+    width: 100%;
+    height: 560px;
+    object-fit:cover ;
+}
+
+.zomato img
+{
+     position: relative; 
+    left: 39%;
+    bottom: 370px;
+    width: 310px;
+    height: 100px;
+    font-weight: 400;
+}
+
+.description p
+{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 360px;
+    font-size: 30px;
+}
+
+
+.upper-description 
+{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 58%;
+    display: flex;
+    gap: 1.8rem;
+    
+}
+
+.upper-description p
+{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.popular
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+     position:absolute; 
+    bottom: 3.7rem;
+    left: 32rem;
+    
+}
+
+.popular p
+{
+    font-size: 2.1rem;
+    font-weight: 100;
+}
+
+.popular img
+{
+    width: 3rem;
+}
+
+.para
+{
+    position: absolute;
+    top: 42rem;
+    font-size: 18px;
+    color: rgb(105, 105, 105);;
+    text-align: center;
+    left: 50vh;
+    font-weight:lighter;
+}
+
+
+.restaurents table td
+{
+    border: 1px solid rgb(230, 228, 228);
+    width: 50vh;
+    height: 10vh;
+    position: relative;
+    top:20px;
+    left: 200px;
+    font-size: 21px;
+    padding:15px 30px 15px 50px ;
+    border-radius: 0.5rem;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.restaurents
+{
+    height: 145rem;
+}
+.restaurents table td:hover
+{
+    box-shadow:  0 .7px 0 .6px rgb(217, 216, 216);
+}
+
+.arrow{
+    display: flex;
+    justify-content: end;
+    margin-top: -22px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.all-countries
+{
+    font-size: 28px;
+    position: absolute;
+    top: 192rem;
+    left: 15rem;
+    
+}
+
+.countries td
+{
+    border: 1px solid rgb(230, 228, 228);
+    width: 50vh;
+    height: 10vh;
+    position: relative;
+    bottom: 1.3rem;
+    left: 200px;
+    font-size: 21px;
+    padding:15px 30px 15px 50px ;
+    border-radius: 0.5rem;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.countries
+{
+    height: 47rem;
+    position: relative;
+    top: 5rem;
+}
+.countries img
+{
+    padding-right: 0.5rem;
+    
+}
+
+
+.countries span
+{
+    position: relative;
+    bottom: 0.5rem;
+    
+}
+
+.countries table td:hover
+{
+    box-shadow:  0 .7px 0 .6px rgb(217, 216, 216);
+}
+
+footer
+{
+    background-color: rgb(244, 244, 244); 
+    height:60vh; 
+}
+footer .zomato-black img
+{
+    position: absolute;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 12.9rem;
+    top:243rem;
+}
+
+footer .web .india 
+{
+    display: flex;
+    margin: 5rem;
+    justify-content: end;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.web .india img
+{
+    position: relative;
+    width: 25px;
+   
+}
+
+.web .india 
+{
+    position: relative;
+    top: 1.7rem;
+}
+
+.web .img-para p
+{
+    font-size: 17px;
+}
+
+.india .img-para
+
+{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    border: 1px solid rgb(201, 201, 201);
+    position: relative;
+    right: 14rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.img-para i
+{
+    position: absolute;
+    top:100rem;
+}
+
+.web span p
+{
+    height: 20px;
+    color: rgb(61, 60, 60);
+}
+
+.india .english
+{   
+    display: flex;
+    gap: .5rem;
+    border: 1px solid rgb(201, 201, 201);
+    padding:.5rem .5rem .5rem .8rem;
+    position: relative;
+    right: 13.5rem;
+    border-radius: .5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.india .english img
+{
+    width: 23px;
+}
+
+footer .about table
+{
+    position: absolute;
+    left: 12.9rem;
+    top: 249rem;
+}
+
+footer .about table th,
+footer .zomaverse table th,
+footer .for-restaurents table th,
+footer .for-enterprises table th,
+footer .learn-more table th
+{
+    font-weight: lighter;
+}
+
+
+footer .about table td,
+footer .zomaverse table td,
+footer .for-restaurents table td,
+footer .for-enterprises table td,
+footer .learn-more table td
+{
+    color: rgb(108, 107, 107);
+    cursor: pointer;
+}
+
+footer .zomaverse 
+{
+    position: absolute;
+    left: 27rem;
+    top: 249rem;
+}
+
+footer .for-restaurents
+{
+    position: absolute;
+    left: 40rem;
+    top: 249rem;
+}
+
+footer .for-enterprises
+{
+    position: absolute;
+    left: 40rem;
+    top: 257.5rem;
+}
+
+footer .learn-more
+{
+    position: absolute;
+    left: 55rem;
+    top: 249rem;
+}
+
+.social-links .social-medias img
+{
+    cursor: pointer;
+    width:22px;
+    position: relative;
+    top:.5rem;
+}
+
+.social-links
+{
+    position: absolute;
+    left: 67rem;
+    top: 250rem;
+}
+
+.apple img
+{
+    cursor: pointer;
+    width: 8rem;
+    position: relative;
+    left: 66.6rem;
+    top: 3.6rem;
+}
+
+.googleplay img
+{
+    cursor: pointer;
+    width: 8rem;
+    position: relative;
+    left: 66.6rem;
+    top: 4rem;
+}
+
+.lastpara
+{
+    position: absolute;
+    top: 265rem;
+    font-size: 12px;
+    left: 13.4rem;
+}
